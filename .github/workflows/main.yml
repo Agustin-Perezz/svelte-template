@@ -21,7 +21,7 @@ jobs:
         run: pnpm lint
       - name: Check
         run: pnpm check
-      - nme: Install Playwright Browsers
+      - name: Install Playwright Browsers
         run: npx playwright install
       - name: Run E2E Test
         run: pnpm test
