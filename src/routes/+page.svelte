@@ -1,9 +1,3 @@
-<script>
-  import { firebaseApp } from '$lib';
-
-  console.log('Firebase App:', firebaseApp);
-</script>
-
 <div class="flex min-h-screen flex-col items-center justify-center">
   <h1>Basic SvelteKit Template</h1>
   <p>
