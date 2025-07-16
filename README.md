@@ -12,6 +12,7 @@ Minimal SvelteKit template with Firebase, Tailwind CSS, TypeScript, Playwright, 
 - ESLint & Prettier
 - Husky (Git hooks)
 - Vite
+- Axios
 
 ## Getting Started
 
@@ -63,6 +64,7 @@ pnpm run test
 Set the following variables in your .env file:
 
 ```
+VITE_API_BASE_URL=your_base_api
 VITE_FIREBASE_API_KEY=your_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
 VITE_FIREBASE_PROJECT_ID=your_project_id
